@@ -12,7 +12,8 @@ const {createApp} = Vue
 createApp({
     data() {
         return {
-            message: "Iniziamo Vue.js"
+            message: "Iniziamo Vue.js",
+            img: "https://picsum.photos/200/300"
         }
     },
     methods: {
